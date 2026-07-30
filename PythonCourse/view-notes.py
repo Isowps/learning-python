@@ -1,0 +1,5 @@
+file = open("notetaking.txt","r" )
+contents = file.read()
+print("===== MY NOTES =====")
+print(contents)
+file.close()
